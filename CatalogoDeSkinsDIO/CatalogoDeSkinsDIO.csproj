@@ -9,9 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\V1\" />
     <Folder Include="Models\" />
-    <Folder Include="DTO\" />
     <Folder Include="Repository\" />
   </ItemGroup>
 
