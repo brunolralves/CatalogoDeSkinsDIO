@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CatalogoDeSkinsDIO.Services
 {
-    public interface ISkinService
+    public interface ISkinService : IDisposable
     {
         Task<List<SkinViewModel>> Get(int page, int quantity);
 
